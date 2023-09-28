@@ -1,0 +1,41 @@
+.i1
+{
+    margin-left:30px;
+}
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(212, 150, 169, 0.4);
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+table {
+     margin-left: 400px;
+    
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    border-color: brown
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+th{
+ background-color: cadetblue;   
+}
